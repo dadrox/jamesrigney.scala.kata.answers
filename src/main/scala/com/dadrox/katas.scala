@@ -17,4 +17,10 @@ object Katas {
 		}
 		divisors(left).intersect(divisors(right)).max
 	}
+
+	def welcome(lastName: String, isWoman: Boolean, isSir: Boolean) = {
+		if(isWoman) "Hello Ms. " + lastName
+		else if (isSir) "Hello Sir " + lastName
+		else "Hello Mr. " + lastName
+	}
 }

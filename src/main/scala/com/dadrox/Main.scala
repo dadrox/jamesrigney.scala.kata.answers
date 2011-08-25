@@ -12,6 +12,11 @@ object Main {
 		println("12, 15 -> " + Katas.gcd(12, 15))
 		println("12, 24 -> " + Katas.gcd(12, 24))
 		println("7 ,13  -> " + Katas.gcd(7, 13))
+
+
+		println(Katas.welcome("Austin", true, true))
+		println(Katas.welcome("Newton", false, true))
+		println(Katas.welcome("Orwell", false, false))
 	}
 }
 
